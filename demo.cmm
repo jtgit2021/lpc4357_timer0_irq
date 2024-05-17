@@ -1,0 +1,45 @@
+RESET
+SYS.RESET
+
+SYStem.CPU LPC4357JET256
+Sys.Config DEBUGPORTTYPE JTAG
+SYStem.Option ResBreak OFF
+
+sys.option.waitidcode ON
+
+SYStem.Up
+
+;source files also needed
+;symbol.SourcePATH.SetDir ./LPC
+DO ~~\demo\arm\flash\lpc43xx CPU=LCP4357JET256 PREPAREONLY
+
+;flash.list
+FLASH.ReProgram.ALL
+;data.load.elf C:\Keil_workspace\LPC4357\demoLAU\Objects\demo.axf /NoReg
+data.load.elf .\Objects\test.axf /NoReg
+
+FLASH.ReProgram.off
+;virtual mem > target , also compares
+
+sys.down
+sys.up
+
+task.config ~~/demo/arm/kernel/rtxarm/v5/rtx.t32
+menu.rp ~~/demo/arm/kernel/rtxarm/v5/rtx.men
+
+;enable trace - doesnt work with intargetreset -> registers cleared
+Data.Set D:0x40086790 %Long 0x00000022 ; SFSPF_4 ==> TRACECLK
+Data.Set D:0x40086794 %Long 0x00000023 ; SFSPF_5 ==> TRACEDATA[0]
+Data.Set D:0x40086798 %Long 0x00000023 ; SFSPF_6 ==> TRACEDATA[1]
+Data.Set D:0x4008679C %Long 0x00000023 ; SFSPF_7 ==> TRACEDATA[2]
+Data.Set D:0x400867A0 %Long 0x00000023 ; SFSPF_8 ==> TRACEDATA[3]
+;multiplexing
+
+
+go main\6
+WAIT !run()
+list.hll
+list.hll TIMER0_IRQHandler
+
+
+Break.Set TIMER0_IRQHandler\1

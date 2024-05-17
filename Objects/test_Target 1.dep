@@ -1,0 +1,95 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6210000::V6.21::..\..\Program Files\ArmCompilerforEmbedded6.21
+F (.\main.c)(0x66475752)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/main.o -MD)
+I (RTE\_Target_1\RTE_Components.h)(0x664751C1)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\LPC43xx.h)(0x54C0898C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\core_cm4.h)(0x60ADD49E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_version.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\mpu_armv7.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\system_LPC43xx.h)(0x57034C4E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x60ADD49E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stddef.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_LED.h)(0x5D1463BA)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdio.h)(0x651D7C86)
+F (C:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Boards/Keil/MCB4300/Common/LED_MCB4300.c)(0x5E2F6886)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/led_mcb4300.o -MD)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\RTE_Driver\SCU_LPC43xx.h)(0x5E2F6886)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\RTE_Driver\GPIO_LPC43xx.h)(0x5D07140C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\LPC43xx.h)(0x54C0898C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\core_cm4.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_version.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\mpu_armv7.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\system_LPC43xx.h)(0x57034C4E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.16.0\Board\Board_LED.h)(0x5D1463BA)
+F (RTE/CMSIS/RTX_Config.c)(0x626F9F3E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/rtx_config.o -MD)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60ADD49E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x626F9F3E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stddef.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\RTX\Include\rtx_def.h)(0x626F9F3E)
+I (RTE\_Target_1\RTE_Components.h)(0x664751C1)
+I (RTE\CMSIS\RTX_Config.h)(0x626F9F3E)
+F (RTE/CMSIS/RTX_Config.h)(0x626F9F3E)()
+F (C:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Library/ARM/RTX_CM4F.lib)(0x626F9F3E)()
+F (C:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Source/rtx_lib.c)(0x626F9F3E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/rtx_lib.o -MD)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x626F9F3E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stddef.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\RTX\Include\rtx_def.h)(0x626F9F3E)
+I (RTE\_Target_1\RTE_Components.h)(0x664751C1)
+I (RTE\CMSIS\RTX_Config.h)(0x626F9F3E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\LPC43xx.h)(0x54C0898C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\core_cm4.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_version.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\mpu_armv7.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\system_LPC43xx.h)(0x57034C4E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\RTX\Include\rtx_evr.h)(0x626F9F3E)
+F (C:/Users/jotr01/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.7.2/Source/retarget_io.c)(0x584E8C2E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/retarget_io.o -MD)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\string.h)(0x651D7C86)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdio.h)(0x651D7C86)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdlib.h)(0x651D7C86)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\assert.h)(0x651D7C86)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\rt_sys.h)(0x651D7C86)
+I (RTE\_Target_1\RTE_Components.h)(0x664751C1)
+F (C:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver/GPIO_LPC43xx.c)(0x5D07140C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/gpio_lpc43xx.o -MD)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\RTE_Driver\GPIO_LPC43xx.h)(0x5D07140C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\LPC43xx.h)(0x54C0898C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\core_cm4.h)(0x60ADD49E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_version.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\mpu_armv7.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\system_LPC43xx.h)(0x57034C4E)
+F (C:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver/SCU_LPC43xx.c)(0x5D07140C)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/scu_lpc43xx.o -MD)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\LPC43xx.h)(0x54C0898C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\core_cm4.h)(0x60ADD49E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_version.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\mpu_armv7.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\system_LPC43xx.h)(0x57034C4E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\RTE_Driver\SCU_LPC43xx.h)(0x5E2F6886)
+F (RTE/Device/LPC4357_Cortex-M4/RTE_Device.h)(0x5D07140C)()
+F (RTE/Device/LPC4357_Cortex-M4/startup_LPC43xx.s)(0x59DD857A)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__RTX SETA 1"-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-Wa,armasm,--pd,"__UVISION_VERSION SETA 538" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"CORE_M4 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_lpc43xx.o)
+F (RTE/Device/LPC4357_Cortex-M4/system_LPC43xx.c)(0x5E2F6598)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__RTX -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/CMSIS-I./RTE/Device/LPC4357_Cortex-M4-I./RTE/_Target_1-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/RTX/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/Core/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/ARM/FuSa_RTS_CM4/1.1.0/CMSIS/RTOS2/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/Device/Include-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/LPC4300_DFP/2.10.1/RTE_Driver-IC:/Users/jotr01/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.16.0/Board-D__UVISION_VERSION="538" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/system_lpc43xx.o -MD)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\LPC43xx.h)(0x54C0898C)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\core_cm4.h)(0x60ADD49E)
+I (C:\Program Files\ArmCompilerforEmbedded6.21\include\stdint.h)(0x651D7C86)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_version.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\FuSa_RTS_CM4\1.1.0\CMSIS\Core\Include\mpu_armv7.h)(0x60ADD49E)
+I (C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\LPC4300_DFP\2.10.1\Device\Include\system_LPC43xx.h)(0x57034C4E)
